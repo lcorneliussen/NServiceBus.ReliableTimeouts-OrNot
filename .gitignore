@@ -1,0 +1,45 @@
+﻿# Maven stuff
+target/
+*.releaseBackup
+release.properties
+
+# Visual Studio Ignores
+[Bb]in/
+obj/
+.vs10x
+*.vs10x
+*.sln.cache
+*.suo
+*.user
+
+# Visual Source Safe Ignores
+*.vssscc
+*.vspscc
+*.scc
+
+# Resharper Ignores
+_ReSharper.*/
+*.resharper.user
+*.dotCover
+
+# StyleCop cache ignores
+*StyleCop.Cache
+
+# Ignore TypeMock TestLint Cache
+lint.db
+
+# vim Ignore
+*.swp
+
+# kdiff3 Ignore
+*.orig
+
+# LATEX Ignores
+*.tex.undo
+
+# Misc Ignores
+Thumbs.db
+!libs/*/[Bb]in/
+
+*.ncb
+*.bak
